@@ -670,6 +670,7 @@ class API(object):
         if filter_business:
             print("--> You are going to filter business accounts. This will take time! <--")
             from random import random
+            from random import uniform
         if to_file is not None:
             if os.path.isfile(to_file):
                 if not overwrite:
